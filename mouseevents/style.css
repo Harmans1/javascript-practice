@@ -1,7 +1,7 @@
 body{
     font-family: cursive;
 }
-
+/* 
 .heading{
     background-color: rgb(205, 156, 251);
     color: blueviolet;
@@ -49,4 +49,64 @@ body{
 .btn:hover {
     background-color: white;
     color: black;
+} */
+
+
+.card{
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.magicbtn{
+    padding: 9px 32px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.magicbtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.title{
+    animation: fall 3s infinite;
+}
+@keyframes fall{
+    10%{
+        color: black;
+        letter-spacing: 0.5px;
+    }
+    20%{
+        color: darkmagenta;
+        font-size: 30px;
+    }
+    30%{
+        color: crimson;
+    }
+    40%{
+        color: darkslategray;
+        font-size: 40px;
+    }
+    50%{
+        color: darkcyan;
+        letter-spacing: 1px;
+    }
+    70%{
+        color: darkgreen;
+        font-size: 50px;
+    }
+    80%{
+        color: darkseagreen;
+    }
+    90%{
+        color: darkgoldenrod;
+        font-size: 40px;
+    }
+    100%{
+        color: dimgray;
+    }
 }
