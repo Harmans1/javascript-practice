@@ -1,0 +1,52 @@
+body{
+    font-family: cursive;
+}
+
+.heading{
+    background-color: rgb(205, 156, 251);
+    color: blueviolet;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+.alert{
+    background-color: rgb(126, 255, 255);
+    color: teal;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 22px;
+    margin: auto;
+}
+
+
+.inputfield{
+    width: 300px;
+    margin: 100px auto;
+}
+.name{
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    height: 20px;
+
+}
+
+.btn{
+    padding: 9px 32px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}
