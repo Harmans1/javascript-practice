@@ -49,14 +49,11 @@ sumbit = () =>{
         email: email.value,
     }
 
-    // document.getElementById('name').value = "";
-    // document.getElementById('age').value = "";
-    // document.getElementById('email').value = "";
-
-
+    
+    
     let userEmailcount = users.filter((user)=>{
         return user.email == email.value;
-
+        
     })
     if(userEmailcount.length == 0){
         
@@ -67,4 +64,7 @@ sumbit = () =>{
     }
 
     console.log(users)
+    name.value = "";
+    age.value = "";
+    email.value = "";
 }
